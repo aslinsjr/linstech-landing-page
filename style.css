@@ -60,6 +60,11 @@ body {
     text-align: center;
     color: hsl(0, 0%, 100%);
     transition: 0.5s;
+    background: linear-gradient(to right, hsl(0, 0%, 100%), hsla(0, 0%, 34%, 0.5));
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .banner.active {
